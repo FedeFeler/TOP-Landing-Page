@@ -118,3 +118,28 @@ ul {
     gap: 32px;
     margin-top: 30px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 120px 0; 
+    
+}
+
+.quote-container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: var(--primary-color);
+    font-weight: 300;
+    font-style: italic;
+}
+
+.signature {
+    align-self: flex-end;
+    font-weight: 500;
+}
