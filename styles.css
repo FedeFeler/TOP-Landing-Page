@@ -43,20 +43,27 @@ ul {
 }
 
 .logo {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .hero {
     background-color: var(--primary-color);
     color: var(--main-text-color);
     display: flex;
-    justify-content: space-around;
-    padding: 100px 220px;
-    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+}
+
+.hero-main {
+    width: 460px;
+    height: 220px;
 }
 
 .hero-title {
     font-size: 48px;
+    font-weight: 900;
 }
 
 .hero-para {
@@ -64,7 +71,7 @@ ul {
 }
 
 .img {
-    width: 700px;
+    width: 420px;
     height:200px;
     display: flex;
     justify-content: center;
